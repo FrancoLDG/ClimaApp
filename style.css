@@ -51,8 +51,8 @@
   #pressure,
   #temperature,
   #date {
-    color: #782424;
-    font-size: 18px;
+    color: #000000;
+    font-size: 22px;
   }
   
   #location {
@@ -79,6 +79,10 @@
     position: relative;
     display: flex;
     flex-direction: row;
+  }
+  #metric-symbol{
+    font-family: fantasy;
+    font-size: 2em;
   }
   
   .ciudad {
