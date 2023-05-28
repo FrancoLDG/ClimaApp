@@ -1,0 +1,109 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url(https://img.freepik.com/fotos-premium/fondo-cielo-azul-nubes-diminutas-hora-atardecer_527096-1442.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+  }
+  
+  #container {
+    background-color: #d786e0;
+    color: white;
+    width: 90%;
+    max-height: 100%;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    backdrop-filter: blur(8px);
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .ciudad,
+  .cielo,
+  .humedad,
+  .presion,
+  .fecha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  #location,
+  #description,
+  #humidity,
+  #pressure,
+  #temperature,
+  #date {
+    color: #782424;
+    font-size: 18px;
+  }
+  
+  #location {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  #temperature {
+    display: flex;
+    color: rgb(12, 12, 12);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .grados {
+    font-size: large;
+    color: black;
+    font-weight: 800;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .ciudad {
+    color: #fff;
+    border-radius: 1rem;
+    font-weight: 600;
+    padding: 1.5rem 0.5rem;
+    backdrop-filter: blur(8px);
+    background-color: rgba(167, 68, 68, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .temperatura {
+    background-color: rgba(121, 13, 121, 0);
+    border-radius: 1.5rem;
+    padding: 1rem 2rem;
+    text-align: center;
+  }
+  
+  @media (min-width: 768px) {
+    /* Estilos específicos para pantallas más grandes (tabletas, escritorios, etc.) */
+    #container {
+      max-width: 650px;
+    }
+  }
+  
